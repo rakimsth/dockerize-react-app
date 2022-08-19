@@ -1,0 +1,9 @@
+version: "3.2"
+services:
+  web:
+    image: my.docker.image:latest
+    ports:
+      - 8080:80
+    environment:
+      - REACT_APP_COMPANYNM=Dipesh
+      - REACT_APP_CMS_API_SERVER=https://raktim.com.np
