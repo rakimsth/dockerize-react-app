@@ -11,3 +11,5 @@ Run the Application
 ```
 docker-compose up
 ```
+
+Change the Environment variable in docker compose file for run interactive execution and `docker-compose up` again
